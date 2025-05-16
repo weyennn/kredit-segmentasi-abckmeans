@@ -101,6 +101,9 @@ data/
 ├── processed/
 └── geo/
 
+EDA/
+└── eksplorasi_data_kredit.py
+
 figures/
 └── *.png
 ```
