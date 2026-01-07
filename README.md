@@ -102,7 +102,6 @@ sangat besar (misalnya DKI Jakarta) dalam proses clustering.
 ---
 
 ## Struktur Proyek
-''
 src/
 ├── abc_optimizer.py
 ├── k_selection.py
@@ -121,7 +120,6 @@ EDA/
 
 figures/
 └── *.png
-''
 ---
 
 ## Penulis
