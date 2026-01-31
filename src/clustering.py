@@ -9,8 +9,8 @@ from abc_optimizer import ABCOptimizer
 import os
 
 def segment_and_cluster(
-    input_path="data/processed/kredit_jp_op_features.csv",
-    output_path="data/processed/kredit_jp_op_clustered_dualsegment.csv",
+    input_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/processed/kredit_jp_op_features.csv",
+    output_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/processed/kredit_jp_op_clustered_dualsegment.csv",
     high_plot="figures/high_volume_pca.png",
     normal_plot="figures/normal_volume_pca.png"):
     

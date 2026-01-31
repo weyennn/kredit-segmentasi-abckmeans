@@ -5,8 +5,8 @@ from matplotlib.patches import Patch
 import os
 
 def plot_cluster_map(
-    geojson_path="data/geo/indonesia-prov.geojson",
-    clustered_csv="data/processed/kredit_jp_op_clustered_dualsegment.csv",
+    geojson_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/geo/indonesia-prov.geojson",
+    clustered_csv="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/processed/kredit_jp_op_clustered_dualsegment.csv",
     output_path="figures/map_cluster_jp_op_segmented.png"
 ):
     # Load clustering data

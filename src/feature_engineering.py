@@ -2,8 +2,8 @@ import pandas as pd
 import os
 
 def generate_features(
-    input_path="data/processed/kredit_jp_op_clean.csv",
-    output_path="data/processed/kredit_jp_op_features.csv"
+    input_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/processed/kredit_jp_op_clean.csv",
+    output_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/processed/kredit_jp_op_features.csv"
 ):
     print("Membuat fitur dari:", input_path)
 

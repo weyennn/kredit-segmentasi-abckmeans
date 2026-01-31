@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 def preprocess_kredit_jp_op(
-    input_path="data/raw/STATISTIK_PERBANKAN_FEBRUARI 2025.xlsx",
+    input_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/raw/STATISTIK_PERBANKAN_FEBRUARI 2025.xlsx",
     sheet_name="Kredit JP-OP per Lok._3.12.a.",
-    output_path="data/processed/kredit_jp_op_clean.csv"
+    output_path="/Users/wayeien/Documents/JOB/Portofolio/github/credit-segmentation-indonesia/data/processed/kredit_jp_op_clean.csv"
 ):
     print("Membaca sheet:", sheet_name)
 
